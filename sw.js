@@ -1,4 +1,4 @@
-const CACHE='catbook-day166-v9-ability-focus';
+const CACHE='catbook-day166-v10-class-colors';
 const FILES=['./','./index.html','./style.css','./core.js','./app.js','./data.js','./icon.svg','./manifest.webmanifest'];
 self.addEventListener('install',event=>event.waitUntil((async()=>{
   const response=await fetch('./icon-paths.json',{cache:'reload'});
