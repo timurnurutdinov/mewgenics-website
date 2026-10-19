@@ -1,5 +1,6 @@
 'use strict';
 const DATA=window.CATBOOK_DATA, C=window.CatbookCore;
+document.title=`Кототека · день ${DATA.day}`;
 const $=s=>document.querySelector(s), esc=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 const STORAGE='catbook:notes:v1:'+DATA.campaign;
 const state={collection:'first-trip',room:null,classId:'',status:'',ability:'',query:'',sort:'name',direction:1,view:'abilities'};

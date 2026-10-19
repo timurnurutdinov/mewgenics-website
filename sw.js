@@ -1,4 +1,4 @@
-const CACHE='catbook-day166-v12-compact-roster';
+const CACHE='catbook-day169-v13';
 const FILES=['./','./index.html','./style.css','./core.js','./app.js','./data.js','./icon.svg','./manifest.webmanifest'];
 self.addEventListener('install',event=>event.waitUntil((async()=>{
   const response=await fetch('./icon-paths.json',{cache:'reload'});
