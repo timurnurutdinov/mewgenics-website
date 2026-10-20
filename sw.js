@@ -1,5 +1,5 @@
-const CACHE='catbook-day169-v14-mutations';
-const FILES=['./','./index.html','./style.css','./core.js','./app.js','./data.js','./icon.svg','./manifest.webmanifest'];
+const CACHE='catbook-day169-v15-atlas';
+const FILES=['./mutations.html','./mutations.js','./mutations.css','./','./index.html','./style.css','./core.js','./app.js','./data.js','./icon.svg','./manifest.webmanifest'];
 self.addEventListener('install',event=>event.waitUntil((async()=>{
   const response=await fetch('./icon-paths.json',{cache:'reload'});
   if(!response.ok)throw Error('Icon manifest unavailable');
